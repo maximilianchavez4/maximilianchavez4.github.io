@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="about.css">
+		<link rel="stylesheet" type="text/css" href="template.css">
+		<link href="https://fonts.googleapis.com/css?family=Quicksand:300" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<script>
+			 $(function() {
+			    $('.down_arrow').click (function() {
+			      $('html, body').animate({scrollTop: $('h1.main').offset().top }, 'slow');
+			      return false;
+			    });
+			  });
+		</script>
+
+		<style>
+			body, html, .main {
+		    	height: 100%;
+			}
+z
+			section {
+			    min-height: 100%;
+			}
+		</style>
+	</head>
+	<body>
+
+		<div id = "menu" class = "menu">
+
+			<div class = "image2" style="float:left"><a><img src="images/smash.png" width="155" height="45"></a></div>	
+
+			<ul>
+				<li style="float:right"><a href="contact.html">Contact</a></li>
+				<li style="float:right" class="dropdown"><a>About</a>
+				<div class="dropdown-content">
+					<a href="about.html">Who Am I</a>
+					<a href="resume.html">Resume</a>
+      				<a href="projects.html">Projects</a>
+    			</div>
+				</li>
+	 	 		<li style="float:right"><a href="index.html">Home</a></li>
+			</ul>
+
+		</div>
+
+		<div class = "body">
+			<img style = "float:left" src="images/about_me.jpg" width = "450" height="635">
+		</div>
+		<div class = "container"> 
+			<div class = "image"><img class = "image" src="images/about_description.jpg"></div>
+			<div class = "name">About Me.</div>
+			<div class = "continue">
+				<a>Continue</a>
+			</div>
+		</div>
+		
+	</body>
+</html>

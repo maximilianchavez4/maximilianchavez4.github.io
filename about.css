@@ -1,0 +1,31 @@
+.body{
+	padding-top: 0.01px;
+	text-align: left;
+	top:110%;
+	right:10%;
+}
+
+.image{
+	position: relative;
+
+	float: right;
+	width:10000px;
+	height:635px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+    overflow: hidden;
+}
+
+.name {
+    position: absolute;
+    color:black;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    font-style: italic;	
+}

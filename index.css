@@ -1,0 +1,93 @@
+.description{
+	position: relative;
+	padding-top: 0.01px;
+	text-align: left;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+}
+
+.image{
+	z-index: 1;
+}
+
+.name {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+}
+
+.down_arrow{
+	position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.down_arrow:hover{
+	position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter:invert(100%);
+}
+
+
+.button a{
+	height: 31px;
+	width: 140px;
+	position: absolute;
+    background-color: black;
+    border: solid white;
+    color: white;
+    padding: 0.01px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    left:19%;
+    top:170%;
+} 
+
+.button a:hover {
+	height: 31px;
+	width: 140px;
+	position: absolute;
+    background-color: white; 
+    border: solid white;
+    color: black;
+    padding: 0.01px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+} 
+
+
+
+#learn_more{
+	color:white;
+	background-color: black;
+}
+
+#downarrow{
+	background: url("https://stores.jcpenney.com/permanent-b0b701/assets/images/carrot-grey.3e1998ac.svg") no-repeat;
+	padding-bottom: 80px;
+}
+
+
+#description_title{
+	font-size: 55px;
+	font-style: italic;
+}
+
+#description_paragraph{
+	font-size:20px;
+}
+
