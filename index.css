@@ -1,48 +1,163 @@
-.description{
-	position: relative;
-	padding-top: 0.01px;
-	text-align: left;
+body{
+	background-color: white;
+	color:white;
+    font-family: 'Comfortaa', cursive;
 }
+
+.topnav {
+    overflow: hidden;
+    z-index: 2;
+    list-style-type: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border-style: solid;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #87b9ff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #f4f4f4;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    color: black;
+    font-weight: bold;
+    background-color: #ddd;
+}
+
 
 .container {
     position: relative;
     text-align: center;
-    color: white;
-    padding-top: 40px;
+    color:white;
+}
+
+.title {
+	color:#c1bfbf;
+    position: absolute;
+   	font-size: 85px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.subtitle{
+    color:#ffffff;
+    font-weight: bold;
+    position: absolute;
+    font-size: 20px;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .image{
-	z-index: 1;
-}
-
-.name {
+    width:100px;
+    height:100px;
     position: absolute;
-    top: 43%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 60px;
-}
-
-.down_arrow{
-	position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.down_arrow:hover{
-	position: absolute;
-    top: 75%;
-    left: 50%;
+    top: 80%;
+    left: 49%;
     transform: translate(-50%, -50%);
     filter:invert(100%);
 }
 
+.image:hover{
+    width:100px;
+    height:100px;
+    position: absolute;
+    top: 80%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    filter:invert(0%);
+}
 
-.button a{
-	height: 31px;
-	width: 140px;
-	position: absolute;
+
+
+.title_image{
+	width:1250px;
+	height: 620px;
+}
+
+.infographic_picture{
+    float:right;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("images/home_page.jpg");
+
+    /* Set a specific height */
+    min-height: 700px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.second_parallax{
+    background-image: url("images/photo3.jpg");
+    min-height: 831px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: width:1250px;;
+    background-size: height:620px;;
+}
+
+.third_parallax{
+    background-image: url("images/orgin_img.jpg");
+    min-height: 795px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: width:1250px;;
+    background-size: height:620px;;
+}
+
+.our_mission{
+    font-size: 100px;
+    font-weight: bold;
+    padding-top: 220px;
+    padding-left: 330px
+}
+
+.mission_statement{
+    font-size: 28px;
+    font-style: italic;
+    text-align: center;
+    padding-top: 160px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.about_us a{
+    height: 30px;
+    width: 210px;
     background-color: black;
     border: solid white;
     color: white;
@@ -51,17 +166,16 @@
     text-decoration: none;
     display: inline-block;
     font-size: 22px;
-    left:19%;
-    top:170%;
+    position: absolute;
+    top:335%;
+    right:40.5%;
 } 
 
-.button a:hover {
-	height: 31px;
-	width: 140px;
-	position: absolute;
-    background-color: white; 
+.about_us a:hover {
+    height: 30px;
+    width: 210px;
+    background-color: transparent;
     border: solid white;
-    color: black;
     padding: 0.01px 20px;
     text-align: center;
     text-decoration: none;
@@ -69,25 +183,30 @@
     font-size: 22px;
 } 
 
-
-
-#learn_more{
-	color:white;
-	background-color: black;
+#infographic{
+    color:black;
+    float:left;
+    font-size: 90px;
+    font-style: italic;
+    padding-top: 45px;
+    padding-left: 10px; 
 }
 
-#downarrow{
-	background: url("https://stores.jcpenney.com/permanent-b0b701/assets/images/carrot-grey.3e1998ac.svg") no-repeat;
-	padding-bottom: 80px;
+#google_translate_element{
+    padding-top: 40px;
 }
 
-
-#description_title{
-	font-size: 55px;
-	font-style: italic;
+#google_translate_element{
+    color:white;
+    text-align: center;
+    font-style: italic;
 }
 
-#description_paragraph{
-	font-size:20px;
+.translation{
+    float: right;
+    padding-bottom: 20px;
+    border:solid 2px black;
+    background-color: black;
+    width:100%;
 }
 

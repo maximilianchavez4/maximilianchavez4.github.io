@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="prevention.css">
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<script>
+			 $(function() {
+			    $('.translate_button').click (function() {
+			      $('html, body').animate({scrollTop: $('.translation_bar').offset().top }, 'slow');
+			      return false;
+			    });
+			  });
+		</script>
+
+		<style>
+			body, html, .translate_button {
+		    	height: 0%;
+			}
+
+			section {
+			    min-height: 0%;
+			}
+
+		</style>
+
+		<script>
+			 $(function() {
+			    $('.image').click (function() {
+			      $('html, body').animate({scrollTop: $('.second_parallax').offset().top }, 'slow');
+			      return false;
+			    });
+			  });
+		</script>
+
+		<style>
+			body, html, .second_parallax {
+		    	height: 0%;
+			}
+
+			section {
+			    min-height: 0%;
+			}
+
+		</style>
+		<style type="text/css">iframe.goog-te-banner-frame{ display: none !important;}</style>
+		<style type="text/css">body {position: static !important; top:0px !important;}</style>
+</head>
+<body>
+	<div class="topnav">
+	  <a href="index.html">home</a>
+	  <a href="origin.html">origin</a>
+	  <a class = "active" href="prevention.html">prevention</a>
+	  <a href="volunteer.html">volunteer</a>
+	  <a href="about_us.html">about us</a>
+	  <a class = "translate_button" href="#main"><i class="fas fa-language fa-lg"></i></a>
+	  <a class = "contact_us" style = "float:right" href="contact_us.html">contact us</a>
+	</div>
+
+	<div class = "parallax"></div>
+		
+		<div class = "title">prevention.</div>
+		<a href = "#main"><img class = "image" src = "images/down_arrow.png"></a>
+
+	<div class = "second_parallax">
+		<div class = "main_title">How to Stay Safe.</div>
+		<div class = "list">
+				<p>Wear gloves if you are handling or skinning potentially infected animals. Contact your local health department if you have questions about disposal of dead animals.</p>
+				<p>Use repellent if you think you could be exposed to fleas during activities such as camping, hiking, or working outdoors. Products containing DEET can be applied to the skin as well as clothing and products containing permethrin can be applied to clothing.</p>
+				<p>Keep fleas off of your pets by applying flea control products. Animals that roam freely are more likely to come in contact with plague infected animals or fleas and could bring them into homes. If your pet becomes sick, seek care from a veterinarian as soon as possible.</p>
+		</div>
+	</div>
+
+	<div class= "third_parallax">
+		<div class = "app_title">app innovation.</div>
+		<div class = "app_description">The Hiker Companion App will bring the comfort of saftey to all hikers. Injured or infected in the middle of your hike? No worries! Hiker Companion can contact and send your location to local hospitals. Feel saftey concerns from the trail you are about to take? Just look at the saftey ratings! Hikers can rate trails based on saftey and difficulty. Rash on your arm or leg? Ask the experts! Submit a photo and minutes later have a community of hikers help identify your infection. In the Hiker Companion App, connect with other hikers near you!</div>
+	</div>
+
+	<div class = "fourth_parallax">
+		<div class = "feature_title">Key Features:</div>
+		<div class="feature_description">
+			<ul>
+				<li>Connect with a community just like you</li>
+				<li>Achieve saftey on your trails</li>
+				<li>Find great and safe trails near you</li>
+				<li>Ask any questions to experts</li>
+				<li>Have quick contact with a local hospital</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class = "translation_bar">
+		<div class = "translation">
+		<div id="google_translate_element"><i class="fas fa-language fa-4x"></i></div>
+			<script>
+		    function googleTranslateElementInit() {
+		        new google.translate.TranslateElement(
+		            {pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL},
+		            'google_translate_element'
+		        );
+		        if(typeof(document.querySelector) == 'function') {
+		           document.querySelector('.goog-logo-link').setAttribute('style', 'display: none');
+		           document.querySelector('.goog-te-gadget').setAttribute('style', 'font-size: 0');
+		        }
+		    }
+			</script>
+		<script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	</div>
+	</div>
+</body>
+</html>

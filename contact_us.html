@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+<link rel="stylesheet" type="text/css" href="contact_us.css">
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<script>
+			 $(function() {
+			    $('.image').click (function() {
+			      $('html, body').animate({scrollTop: $('.second_parallax').offset().top }, 'slow');
+			      return false;
+			    });
+			  });
+		</script>
+
+		<style>
+			body, html, .second_parallax {
+		    	height: 0%;
+			}
+
+			section {
+			    min-height: 0%;
+			}
+
+		</style>
+
+
+		<script>
+			 $(function() {
+			    $('.translate_button').click (function() {
+			      $('html, body').animate({scrollTop: $('.translation_bar').offset().top }, 'slow');
+			      return false;
+			    });
+			  });
+		</script>
+
+		<style>
+			body, html, .translate_button {
+		    	height: 0%;
+			}
+
+			section {
+			    min-height: 0%;
+			}
+
+		</style>
+		<style type="text/css">iframe.goog-te-banner-frame{ display: none !important;}</style>
+		<style type="text/css">body {position: static !important; top:0px !important;}</style>
+</head>
+<body>
+	<div class="topnav">
+	  <a href="index.html">home</a>
+	  <a href="origin.html">origin</a>
+	  <a href="prevention.html">prevention</a>
+	  <a href="volunteer.html">volunteer</a>
+	  <a href="about_us.html">about us</a>
+	  <a class = "translate_button" href="#main"><i class="fas fa-language fa-lg"></i></a>
+	  <a class = "active" class = "contact_us" style = "float:right" href="contact_us.html">contact us</a>
+	</div>
+
+	<div class = "parallax"></div>
+		
+		<div class = "title">contact us.</div>
+		<a href = "#main"><img class = "image" src = "images/down_arrow.png"></a>
+
+	<div class = "second_parallax">
+		<div class="form">
+		<form action="https://formspree.io/maximilian.chavez@scholar.smashprogram.org"
+	      method="POST">
+	    	<div class = "name">Email</div>
+	    	<div class = "name_insert">	
+		    	<input class = "input" type="email" name="_replyto">
+			</div>
+			<div class = "email">Message</div>
+			<div class = "email_insert">
+				<input class = "input" type="text" name="name">
+		    </div>
+		    <div class = "send">
+		    <input type="submit" value="Send">
+			</div>
+		</form>
+	</div>
+</div>
+
+
+		<div class = "translation_bar">
+		<div class = "translation">
+		<div id="google_translate_element"><i class="fas fa-language fa-4x"></i></div>
+			<script>
+		    function googleTranslateElementInit() {
+		        new google.translate.TranslateElement(
+		            {pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL},
+		            'google_translate_element'
+		        );
+		        if(typeof(document.querySelector) == 'function') {
+		           document.querySelector('.goog-logo-link').setAttribute('style', 'display: none');
+		           document.querySelector('.goog-te-gadget').setAttribute('style', 'font-size: 0');
+		        }
+		    }
+			</script>
+		<script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	</div>
+</div>
+</body>
+</html>

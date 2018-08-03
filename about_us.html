@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="about_us.css">
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+	<script>
+			 $(function() {
+			    $('.image').click (function() {
+			      $('html, body').animate({scrollTop: $('.second_parallax').offset().top }, 'slow');
+			      return false;
+			    });
+			  });
+		</script>
+
+		<style>
+			body, html, .second_parallax {
+		    	height: 0%;
+			}
+
+			section {
+			    min-height: 0%;
+			}
+
+		</style>
+
+		<script>
+			 $(function() {
+			    $('.translate_button').click (function() {
+			      $('html, body').animate({scrollTop: $('.down_here').offset().top }, 'slow');
+			      return false;
+			    });
+			  });
+		</script>
+
+		<style>
+			body, html, .down_here {
+		    	height: 0%;
+			}
+
+			section {
+			    min-height: 0%;
+			}
+
+		</style>
+
+		<style type="text/css">iframe.goog-te-banner-frame{ display: none !important;}</style>
+		<style type="text/css">body {position: static !important; top:0px !important;}</style>
+</head>
+<body>
+	<div class="topnav">
+	  <a href="index.html">home</a>
+	  <a href="origin.html">origin</a>
+	  <a href="prevention.html">prevention</a>
+	  <a href="volunteer.html">volunteer</a>
+	  <a class="active" href="about_us.html">about us</a>
+	  <a class = "translate_button" href="#main"><i class="fas fa-language fa-lg"></i></a>
+	  <a class = "contact_us" style = "float:right" href="contact_us.html">contact us</a>
+	</div>
+
+	<div class = "parallax"></div>
+		<div class = "title">meet the team.</div>
+		<a href = "#main"><img class = "image" src = "images/down_arrow.png"></a>
+
+	<div class = "second_parallax">
+		<div id = "max_title">Maximilian Chavez</div>
+		<div class = "max_subtitle">lead web developer.</div>
+		<div id = "max_description">Maximilian is 15 years old. He goes to highschool at East Palo Alto Academy thriving for success. He is a first year SMASH scholar at Stanford. Maximilian is a cohort representative for his fellow scholars. He is interested in the bubonic plague because of its rich history.</div>
+	</div>
+
+	<div class = "third_parallax">
+		<div id = "yazmin_title">Yazmin Amador</div>
+		<div class = "yazmin_subtitle">lead creative innovator.</div>
+		<div id = "yazmin_description">Yazmin is 15 years old. She goes to Abraham Lincoln High School and is excelling. She is a first year SMASH scholar at Stanford. Yazmin wants to go to medical school because she interested in the medical field. She enjoys playing volleyball, and plays volleyball for her school. Yazmin is deeply interested in the bubonic plague because it has a big and interesting medical history.</div>
+	</div>
+
+	<div class = "fourth_parallax">
+		<div id = "oscar_title">Oscar Calvillo</div>
+		<div class = "oscar_subtitle">lead infographic designer.</div>
+		<div id = "oscar_description">Oscar is 14 years old. He goes to San Lorenzo High School and is passionate for design. He is a first year SMASH scholar at Stanford. Oscar is very interested in the bubonic plague because the black death has no cure so far. He demands to keep everyone safe and away from the plauge.</div>
+	</div>
+
+	<div class = "fifth_parallax">
+		<div id = "yarency_title">Yarency Avelar</div>
+		<div class = "yarency_subtitle">lead data scientist.</div>
+		<div id = "yarency_description">Yarency is 15 years old. She goes to Lionel Wilson High School and highly achieves in sports. She is a first year SMASH scholar at Stanford. Yarency does cross country at her school and loves to play the guitar. Yarency is interested in the black death because of the many wonders the black death brings to modern day science.</div>	
+	</div>
+
+	<div class = "sixth_parallax">
+		<div id = "shamone_title">Shamone Wilson</div>
+		<div class = "shamone_subtitle">lead researcher specialist.</div>
+		<div id = "shamone_description">Shamone is 15 years old. He goes to San Lorenzo High School along with Oscar. Shamone is compelling in being the greatest he can be in academics and rightfully owns it. He is a first year SMASH scholar at Stanford. Shamone is interested in the black death because he is devestated by the death rate of the plauge. Shamone does his best to spread awarness about the bubonic plague.</div>	
+
+		<div class = "translation_bar">
+		<div class = "translation">
+		<div class= "down_here" id="google_translate_element"><i class="fas fa-language fa-4x"></i></div>
+			<script>
+		    function googleTranslateElementInit() {
+		        new google.translate.TranslateElement(
+		            {pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL},
+		            'google_translate_element'
+		        );
+		        if(typeof(document.querySelector) == 'function') {
+		           document.querySelector('.goog-logo-link').setAttribute('style', 'display: none');
+		           document.querySelector('.goog-te-gadget').setAttribute('style', 'font-size: 0');
+		        }
+		    }
+			</script>
+		<script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	</div>
+</div>
+</body>
+
+</html>

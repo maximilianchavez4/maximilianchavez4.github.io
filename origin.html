@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="origin.css">
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+		<script>
+			 $(function() {
+			    $('.image').click (function() {
+			      $('html, body').animate({scrollTop: $('.second_parallax').offset().top }, 'slow');
+			      return false;
+			    });
+			  });
+		</script>
+
+		<style>
+			body, html, .second_parallax {
+		    	height: 0%;
+			}
+
+			section {
+			    min-height: 0%;
+			}
+
+		</style>
+
+		<script>
+			 $(function() {
+			    $('.learn_more').click (function() {
+			      $('html, body').animate({scrollTop: $('.article_title').offset().top }, 'slow');
+			      return false;
+			    });
+			  });
+		</script>
+
+		<style>
+			body, html, .article_title {
+		    	height: 0%;
+			}
+
+			section {
+			    min-height: 0%;
+			}
+
+		</style>
+
+		<script>
+			 $(function() {
+			    $('.translate_button').click (function() {
+			      $('html, body').animate({scrollTop: $('.down_here').offset().top }, 'slow');
+			      return false;
+			    });
+			  });
+		</script>
+
+		<style>
+			body, html, .down_here {
+		    	height: 0%;
+			}
+
+			section {
+			    min-height: 0%;
+			}
+
+		</style>
+
+		<style type="text/css">iframe.goog-te-banner-frame{ display: none !important;}</style>
+		<style type="text/css">body {position: static !important; top:0px !important;}</style>
+</head>
+<body>
+	<div class="topnav">
+	  <a href="index.html">home</a>
+	  <a class="active" href="origin.html">origin</a>
+	  <a href="prevention.html">prevention</a>
+	  <a href="volunteer.html">volunteer</a>
+	  <a href="about_us.html">about us</a>
+	  <a class = "translate_button" href="#main"><i class="fas fa-language fa-lg"></i></a>
+	  <a class = "contact_us" style = "float:right" href="contact_us.html">contact us</a>
+	</div>
+
+	<div class = "parallax"></div>
+		
+		<div class = "title">origin.</div>
+		<a href = "#main"><img class = "image" src = "images/down_arrow.png"></a>
+	<div class = "second_parallax">
+		<div class = "main_title">The Bubonic Plague</div>
+		<div id = "description" class = "description">The Bubonic Plague, also known as the Black Death, first made its appearance in Asia, 1348. The medical term for the Bubonic Plague is Yersinia Pestis. The Bubonic Plague managed to wipe out about 75 million lives in Europe. Devistated, scientists came to a conclusion that the plague was carried through fleas on rats.</div>
+
+		<div class = "learn_more"><a href = "#main">Learn More ></a></div>
+	</div>
+	<div class = "color">
+	<div class = "article_title">Yersinia Pestis.</div>
+	<div class = "article_subtitle">article by: black death team</div>
+	<div class = "bacteria_img"><img src="images/bacteria1.jpg" width="1000" height="400"></div>
+	<div class = "image_subtitle">This picture shows the Yersinia Pestis bacteria</div>
+	<div class = "article_description1"><p>The Bubonic Plague, also known as the black death, originaly came from Asia in the 1300's when Italian merchants arrived in their ships, half of them dead. The black death then entered Italy through the ports and became a big pandemic. The rodents in Italy carried fleas that contained a bacteria known as Yersinia Pestis. This bacteria became the deadliest known to human kind. Plague infections can come in two different forms. The most known form of the plague is dark swollen lymph nodes. These are inflated black spots in the body, typically in the location of where the human was bitten. Once the human was infected with lymph nodes, the only known cure was amputation of the area of infection. If the infection spread throughout the body, the human was surley dead.</p></div>
+
+	<div class = "article_description2"><p>However, that isn't the only way a human can get infected. The black death still roams around our earth today! The second way a human can get infected is by inhalation of the bacteria. This type of infection causes more danger to the human because the symptoms can feel just like the flu. With a diagnostic form a doctor, you can catch the bacteria early and easily treat it with antibiotics. If it is too late, the infection can become deadly. This isn't the only scare; Yersinia Pestis can be used as biological warfare. Around the 1300's the black death was used in warfare. In the Siege of Caffa, Gabriele De’ Mussi, a lawyer from near Genoa, is believed to have recorded the account of the earliest use of plague as weapon of war at Caffa in 1346. </p></div>
+	</div>
+	<div class = "translation_bar">
+		<div class = "translation">
+		<div class= "down_here" id="google_translate_element"><i class="fas fa-language fa-4x"></i></div>
+			<script>
+		    function googleTranslateElementInit() {
+		        new google.translate.TranslateElement(
+		            {pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL},
+		            'google_translate_element'
+		        );
+		        if(typeof(document.querySelector) == 'function') {
+		           document.querySelector('.goog-logo-link').setAttribute('style', 'display: none');
+		           document.querySelector('.goog-te-gadget').setAttribute('style', 'font-size: 0');
+		        }
+		    }
+			</script>
+		<script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	</div>
+</div>
+</body>
+</html>

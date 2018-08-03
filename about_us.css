@@ -1,0 +1,338 @@
+body{
+	background-color: white;
+	color:white;
+    font-family: 'Comfortaa', cursive;
+}
+
+.topnav {
+    overflow: hidden;
+    z-index: 2;
+    list-style-type: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border-style: solid;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #87b9ff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #f4f4f4;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    color: black;
+    font-weight: bold;
+    background-color: #ddd;
+}
+
+.image{
+    width:100px;
+    height:100px;
+    position: absolute;
+    top: 80%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    filter:invert(100%);
+}
+
+.image:hover{
+    width:100px;
+    height:100px;
+    position: absolute;
+    top: 80%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    filter:invert(70%);
+}
+
+
+.parallax {
+    /* The image used */
+    background-image: url("images/meet-the-team.jpg");
+
+    /* Set a specific height */
+    min-height: 700px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.second_parallax {
+    /* The image used */
+    background-image: url("images/maximilian.jpg");
+
+    /* Set a specific height */
+    min-height: 660px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 500px 750px;
+    background-position: 0% -15%; 
+
+}
+
+.title {
+	color:white;
+    position: absolute;
+   	font-size: 81px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#max_title{
+	color:black;
+    float:right;
+    font-size: 70px;
+    padding-top: 45px;
+    padding-right: 40px;
+}
+
+.max_subtitle{
+    color:grey;
+    font-weight: bold;
+    font-style: italic;
+    font-size:45px;
+    float:right;
+    padding-top: 10px;
+    padding-left: 150px;
+    padding-right: 120px;
+}
+
+
+#max_description{
+	color:#282828;
+	text-align: center;
+	font-size:21px;
+	width: 600px;
+    float:right;
+    padding-top: 120px;
+    padding-left: 150px;
+    padding-right: 90px;
+    line-height: 40px;
+}
+
+.third_parallax {
+    /* The image used */
+    background-image: url("images/yazmin.jpg");
+
+    /* Set a specific height */
+    min-height: 660px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 500px 750px;
+    background-position: 0% -15%; 
+
+}
+
+#yazmin_title{
+	color:black;
+    float:right;
+    font-size: 70px;
+    padding-top: 30px;
+    padding-right: 90px;
+}
+
+.yazmin_subtitle{
+    color:grey;
+    font-weight: bold;
+    font-style: italic;
+    font-size:40px;
+    float:right;
+    padding-top: 10px;
+    padding-left: 150px;
+    padding-right: 95px;
+}
+
+#yazmin_description{
+	color:#282828;
+	text-align: center;
+	font-size:21px;
+	width: 600px;
+    float:right;
+    padding-top: 120px;
+    padding-left: 150px;
+    padding-right: 90px;
+    line-height: 40px;
+}
+
+.fourth_parallax {
+    /* The image used */
+    background-image: url("images/oscar.jpg");
+
+    /* Set a specific height */
+    min-height: 660px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 500px 750px;
+    background-position: 0% -15%; 
+}
+
+#oscar_title{
+	color:black;
+    float:right;
+    font-size: 70px;
+    padding-top: 30px;
+    padding-right: 130px;
+}
+
+.oscar_subtitle{
+    color:grey;
+    font-weight: bold;
+    font-style: italic;
+    font-size:39px;
+    float:right;
+    padding-top: 10px;
+    padding-left: 150px;
+    padding-right: 45px;
+}
+
+#oscar_description{
+	color:#282828;
+	text-align: center;
+	font-size:21px;
+	width: 600px;
+    float:right;
+    padding-top: 120px;
+    padding-left: 150px;
+    padding-right: 90px;
+    line-height: 40px;
+}
+
+.fifth_parallax {
+    /* The image used */
+    background-image: url("images/yarency.jpg");
+
+    /* Set a specific height */
+    min-height: 660px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 500px 750px;
+    background-position: 0% -15%; 
+}
+
+#yarency_title{
+	color:black;
+    float:right;
+    font-size: 70px;
+    padding-top: 30px;
+    padding-right: 115px;
+}
+
+.yarency_subtitle{
+    color:grey;
+    font-weight: bold;
+    font-style: italic;
+    font-size:39px;
+    float:right;
+    padding-top: 10px;
+    padding-left: 180px;
+    padding-right: 100px;
+}
+
+#yarency_description{
+	color:#282828;
+	text-align: center;
+	font-size:21px;
+	width: 600px;
+    float:right;
+    padding-top: 120px;
+    padding-left: 150px;
+    padding-right: 90px;
+    line-height: 40px;
+}
+
+.sixth_parallax {
+    /* The image used */
+    background-image: url("images/shamone.jpg");
+
+    /* Set a specific height */
+    min-height: 660px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 500px 750px;
+    background-position: 0% -15%; 
+}
+
+#shamone_title{
+	color:black;
+    float:right;
+    font-size: 70px;
+    padding-top: 30px;
+    padding-right: 90px;
+}
+
+.shamone_subtitle{
+    color:grey;
+    font-weight: bold;
+    font-style: italic;
+    font-size:39px;
+    float:right;
+    padding-top: 10px;
+    padding-left: 180px;
+    padding-right: 100px;
+}
+
+#shamone_description{
+	color:#282828;
+	text-align: center;
+	font-size:21px;
+	width: 600px;
+    float:right;
+    padding-top: 120px;
+    padding-left: 150px;
+    padding-right: 90px;
+    line-height: 40px;
+}
+
+#google_translate_element{
+    padding-top: 40px;
+}
+
+#google_translate_element{
+    color:white;
+    text-align: center;
+    font-style: italic;
+}
+
+.translation{
+    float: right;
+    padding-bottom: 20px;
+    border:solid 2px black;
+    background-color: black;
+    width:100%;
+}
